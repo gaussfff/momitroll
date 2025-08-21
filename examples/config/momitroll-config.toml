@@ -1,0 +1,12 @@
+[migration]
+dir = "migrations"
+changelog-coll-name = "changelog"
+
+[db]
+host = "localhost"
+port = 27017
+name = "db"
+
+[creds-env-vars]
+username = "MONGO_USERNAME"
+password = "MONGO_PASSOWORD"

@@ -1,0 +1,26 @@
+[package]
+name = "momitroll-startup"
+description = "entry poiny"
+edition.workspace = true
+version.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+keywords.workspace = true
+categories.workspace = true
+readme.workspace = true
+
+[[bin]]
+name = "momitroll"
+path = "src/main.rs"
+
+[dependencies]
+colored = { workspace = true }
+clap = { version = "4.5.44", features = ["derive", "help", "color"] }
+tokio = { workspace = true }
+anyhow = { workspace = true }
+momitroll-config = { path = "../momitroll-config" }
+momitroll-core = { path = "../momitroll-core" }
+momitroll-logger = { path = "../momitroll-logger" }
+momitroll-util = { path = "../momitroll-util" }

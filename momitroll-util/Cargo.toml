@@ -1,0 +1,17 @@
+[package]
+name = "momitroll-util"
+description = "collection of useful utils"
+edition.workspace = true
+version.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+keywords.workspace = true
+categories.workspace = true
+readme.workspace = true
+
+[dependencies]
+anyhow = { workspace = true }
+mongodb = { workspace = true }
+bson = { workspace = true }

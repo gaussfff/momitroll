@@ -1,0 +1,17 @@
+[package]
+name = "momitroll-logger"
+description = "logger settings"
+edition.workspace = true
+version.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+keywords.workspace = true
+categories.workspace = true
+readme.workspace = true
+
+[dependencies]
+tracing-subscriber = "0.3.19"
+tracing = { workspace = true }
+anyhow = { workspace = true }
